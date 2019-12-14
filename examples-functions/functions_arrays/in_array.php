@@ -12,7 +12,7 @@
     <main>
         <header class="header-content">
             <h1> IN_ARRAY </h1>
-            <h2> Verifica se há o dado em um determinado array.</h2>
+            <h2> Verifica se há um dado em um determinado array.</h2>
             <h4> Exemplo: 👇</h4>
         </header>
 
