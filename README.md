@@ -12,6 +12,13 @@
 
 ## Sobre o PhP 🐘 (EM PRODUÇÃO)
 
+## Exemplo de como cada arquivo .php - Funções:
+
+<p align="center">
+    <img alt="Exemplo de estrutura de cada arquivo .php - funções" src="images/exemplo-pag-php.jpg" width="500">
+    <p align="center"><b>Explica de maneira breve o objetivo de cada função, com exemplo de uso e sua respectiva saída!</b></p>
+</p>
+
 ## Autor
 
 🙎‍♂ **Lucas Alvarenga**
