@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: PRINTF - Lucas Alvarenga</title>
+    <title>Funções no PhP: STRTOLOWER - Lucas Alvarenga</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> PRINTF </h1>
-            <h2> Função herdada da linguagem C, é utilizada para exibir algo na tela com uma formatação específica.</h2>
-             <h3>'Print' em português significa impressão, já o ' f ' refere-se a 'format' ou formatar.</h3>  
+            <h1> STRTOLOWER </h1>
+            <h2> Função que permite deixar todos os caracteres de uma string minúsculas.</h2>
+            <h3> A função strtoupper() realiza a ação inversa: deixa todos os caracteres maiúsculos! </h3>     
             <h4> Exemplo: 👇</h4>
         </header>
 
@@ -30,10 +30,8 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$produto = "Leite";</p>
-                <p class="coding">$preco = 4.5;</p>
-                <p class="comment">$s - Textos | $f - Reais | %d - Inteiros | %.2f - Número de casas decimais 2,3,4... </p>
-                <p class="coding"><span class="function-php">printf</span>("O %s custa R$ %.2f", $produto, $preco);</p>
+                <p class="coding">$frase = "Eu fUi Na CaSa DO LuCAs";</p>
+                <p class="coding">echo <span class="function-php">strtolower</span>($frase);</p>
             </div>
 
         </div>
@@ -43,12 +41,19 @@
             <h4>Saída: 👇</h4>
 
             <?php 
-                $produto = "Leite";
-                $preco = 4.5;
-    
-                printf("O %s custa R$ %.2f", $produto, $preco);
+
+                $frase = "Eu fUi Na CaSa DO LuCAs";
+                echo strtolower($frase);
+
+                //Para caracteres especias utilize funções com mb_[nome_função]
+                /* 
+                const CARACTERES_ESPECIAIS = "utf-8";
+                $fraseA = "Eu fUi Na CaSa DO JoÃo";
+                echo mb_strtolower($fraseA, CARACTERES_ESPECIAIS);
+                */
+                
             ?>
-            
+         
         </div>
     </main>
 </body>

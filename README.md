@@ -12,6 +12,8 @@
 
 ## Sobre o PhP 🐘 (EM PRODUÇÃO)
 
+<br/><br/>
+
 ## Exemplo de como cada arquivo .php - Funções:
 
 <p align="center">

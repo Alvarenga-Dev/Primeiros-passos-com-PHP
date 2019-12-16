@@ -119,10 +119,10 @@ p {
 
 footer {
     text-align: center;
-    margin: 1em 0;
+    margin: 2em 0;
 }
 
 footer .footer-text {
-    color: var(--color-text);
+    color: #f1f1f1;
     font-size: .9em;
 }
