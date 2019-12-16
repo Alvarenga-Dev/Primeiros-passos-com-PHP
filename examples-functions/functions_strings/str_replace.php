@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: STRTOLOWER - Lucas Alvarenga</title>
+    <title>Funções no PhP: STR_REPLACE - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> STRTOLOWER </h1>
-            <h2> Função que permite deixar todos os caracteres de uma string minúsculas.</h2>
-            <h3> A função strtoupper() realiza a ação inversa: deixa todos os caracteres maiúsculos! </h3>     
+            <h1> STR_REPLACE </h1>
+            <h2> Essa função possui a responsabilidade de substituir um determinado caracter por outro dentro de uma String. </h2> 
+            <h3> Obs.: Caso queira desconsiderar letras maiúsculas e minúsculas, use: str_ireplace(). </h3>     
             <h4> Exemplo: 👇 </h4>
         </header>
 
@@ -30,8 +30,10 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = "Eu fUi Na CaSa DO LuCAs";</p>
-                <p class="coding">echo <span class="function-php">strtolower</span>($frase);</p>
+                <p class="comment">//str_replace(Caracter que deseja retirar, Caracter que deseja inserir, String onde deve ocorrer todo o processo )</p>
+                <p class="coding">$cpf = "138.818.730#23";</p>
+                <p class="coding">$cpfCorrigido = <span class="function-php">str_replace</span>("#", "-", $cpf);</p>
+                <p class="coding">echo "$cpfCorrigido";</p>
             </div>
 
         </div>
@@ -40,18 +42,12 @@
 
             <h4> Saída: 👇 </h4>
 
-            <?php 
+            <?php          
 
-                $frase = "Eu fUi Na CaSa DO LuCAs";
-                echo strtolower($frase);
-
-                //Para caracteres especias utilize funções com mb_[nome_função]
-                /* 
-                const CARACTERES_ESPECIAIS = "utf-8";
-                $fraseA = "Eu fUi Na CaSa DO JoÃo";
-                echo mb_strtolower($fraseA, CARACTERES_ESPECIAIS);
-                */
-                
+                $cpf = "138.818.730#23";
+                $cpfCorrigido = str_replace("#", "-", $cpf);
+                echo "<p>$cpfCorrigido</p>"; 
+            
             ?>
          
         </div>

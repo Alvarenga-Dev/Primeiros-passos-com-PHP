@@ -82,7 +82,7 @@ p {
     position: relative;
     background: #3f233f;
     border-radius: .6em;
-    box-shadow: .4em .4em .8em rgba(63, 35, 63, .5);
+    box-shadow: .4em .4em .8em rgba(83, 47, 83, 0.4);
     color: #f1f1f1;
     font-size: 1.3em;
     font-weight: 600;
@@ -92,8 +92,8 @@ p {
 }
 
 .window-code .window-title-container{
-    margin: .2em;
-    padding: .3em .6em;
+    margin: .1em;
+    padding: .4em .8em;
     position: absolute;
         top: 0;
         right: 0;

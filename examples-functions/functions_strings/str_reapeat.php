@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: STRTOLOWER - Lucas Alvarenga</title>
+    <title>Funções no PhP: STR_REAPEAT - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> STRTOLOWER </h1>
-            <h2> Função que permite deixar todos os caracteres de uma string minúsculas.</h2>
-            <h3> A função strtoupper() realiza a ação inversa: deixa todos os caracteres maiúsculos! </h3>     
+            <h1> STR_REAPEAT </h1>
+            <h2> Essa função permite a criação de textos repetidos. </h2>     
             <h4> Exemplo: 👇 </h4>
         </header>
 
@@ -30,8 +29,8 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = "Eu fUi Na CaSa DO LuCAs";</p>
-                <p class="coding">echo <span class="function-php">strtolower</span>($frase);</p>
+                <p class="coding">$texto = <span class="function-php">str_repeat</span>("-", 20);</p>
+                <p class="coding">echo "$texto";</p>
             </div>
 
         </div>
@@ -42,16 +41,10 @@
 
             <?php 
 
-                $frase = "Eu fUi Na CaSa DO LuCAs";
-                echo strtolower($frase);
-
-                //Para caracteres especias utilize funções com mb_[nome_função]
-                /* 
-                const CARACTERES_ESPECIAIS = "utf-8";
-                $fraseA = "Eu fUi Na CaSa DO JoÃo";
-                echo mb_strtolower($fraseA, CARACTERES_ESPECIAIS);
-                */
-                
+                $texto = str_repeat("-", 50);
+                echo "<p>$texto</p>";
+                #echo strlen($texto); -> Caso queira confirmar se há 50 caracteres...
+            
             ?>
          
         </div>

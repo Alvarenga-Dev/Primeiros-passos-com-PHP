@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: STRTOLOWER - Lucas Alvarenga</title>
+    <title>Funções no PhP: STRIPOS - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> STRTOLOWER </h1>
-            <h2> Função que permite deixar todos os caracteres de uma string minúsculas.</h2>
-            <h3> A função strtoupper() realiza a ação inversa: deixa todos os caracteres maiúsculos! </h3>     
+            <h1> STRIPOS </h1>
+            <h2> Função que permite buscar palavras dentro de uma string (esta função ignora letras maiúsculas e minúsculas). </h2>
+            <h3> Obs.: Caso deseje levar em consideração letras maiúsculas e minúsculas, use a função strpos()! </h3>     
             <h4> Exemplo: 👇 </h4>
         </header>
 
@@ -30,8 +30,9 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = "Eu fUi Na CaSa DO LuCAs";</p>
-                <p class="coding">echo <span class="function-php">strtolower</span>($frase);</p>
+                <p class="coding">$frase = "Eu estou aprendendo PHP e JavaScript";</p>
+                <p class="coding">$posicao = <span class="function-php">stripos</span>($frase, "php");</p>
+                <p class="coding">echo "A posição da palavra PHP é: $posicao";</p>
             </div>
 
         </div>
@@ -42,16 +43,12 @@
 
             <?php 
 
-                $frase = "Eu fUi Na CaSa DO LuCAs";
-                echo strtolower($frase);
+                $frase = "Eu estou aprendendo PHP e JavaScript";
+                $posicao = stripos($frase, "php");
+                echo "A posição da palavra PHP é: $posicao";
 
-                //Para caracteres especias utilize funções com mb_[nome_função]
-                /* 
-                const CARACTERES_ESPECIAIS = "utf-8";
-                $fraseA = "Eu fUi Na CaSa DO JoÃo";
-                echo mb_strtolower($fraseA, CARACTERES_ESPECIAIS);
-                */
-                
+                   # Teste também a função strpos #
+            
             ?>
          
         </div>

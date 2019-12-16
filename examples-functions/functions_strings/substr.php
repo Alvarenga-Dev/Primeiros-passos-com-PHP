@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: STRTOLOWER - Lucas Alvarenga</title>
+    <title>Funções no PhP: SUBSTR - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> STRTOLOWER </h1>
-            <h2> Função que permite deixar todos os caracteres de uma string minúsculas.</h2>
-            <h3> A função strtoupper() realiza a ação inversa: deixa todos os caracteres maiúsculos! </h3>     
+            <h1> SUBSTR </h1>
+            <h2> Essa função permite criar uma "Sub String", ou seja, recortar uma parte de um String! </h2>     
             <h4> Exemplo: 👇 </h4>
         </header>
 
@@ -30,8 +29,13 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = "Eu fUi Na CaSa DO LuCAs";</p>
-                <p class="coding">echo <span class="function-php">strtolower</span>($frase);</p>
+                <p class="comment">//substr(String a ser analisada, Por onde a função de começar a 'fatiar', (opcional) quatos caracteres ele irá percorrer)</p>
+                <p class="coding">$frase = "Primeiros passos com o php";</p>
+                <p class="coding">echo "A frase é: $frase";</p>
+                <p class="coding">$sub = <span class="function-php">substr</span>($frase, 0, 9);</p>
+                <p class="coding">echo "Primeira Sub String: $sub";</p>
+                <p class="coding">$sub = <span class="function-php">substr</span>($frase, 9);</p>
+                <p class="coding">echo "Segunda Sub String: $sub";</p>
             </div>
 
         </div>
@@ -42,16 +46,13 @@
 
             <?php 
 
-                $frase = "Eu fUi Na CaSa DO LuCAs";
-                echo strtolower($frase);
-
-                //Para caracteres especias utilize funções com mb_[nome_função]
-                /* 
-                const CARACTERES_ESPECIAIS = "utf-8";
-                $fraseA = "Eu fUi Na CaSa DO JoÃo";
-                echo mb_strtolower($fraseA, CARACTERES_ESPECIAIS);
-                */
-                
+                $frase = "Primeiros passos com o php";
+                echo "<p>A frase é: $frase</p>";
+                $sub = substr($frase, 0, 9);
+                echo "<p>Primeira Sub String: $sub</p>";
+                $sub = substr($frase, 9);
+                echo "<p>Segunda Sub String: $sub</p>";
+            
             ?>
          
         </div>
