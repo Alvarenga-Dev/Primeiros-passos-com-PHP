@@ -13,7 +13,7 @@
         <header class="header-content">
             <h1> PRINTF </h1>
             <h2> Função herdada da linguagem C, é utilizada para exibir algo na tela com uma formatação específica.</h2>
-             <h3>'Print' em português significa impressão, já o ' f ' refere-se a 'format' ou formatar.</h3>  
+            <h3>'Print' em português significa impressão, já o ' f ' refere-se a 'format' ou formatar.</h3>  
             <h4> Exemplo: 👇</h4>
         </header>
 
