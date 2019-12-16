@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: STRTOLOWER - Lucas Alvarenga</title>
+    <title>Funções no PhP: IN_ARRAY - Lucas Alvarenga</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> STRTOLOWER </h1>
-            <h2> Função que permite deixar todos os caracteres de uma string minúsculas.</h2>
-            <h3> A função strtoupper() realiza a ação inversa: deixa todos os caracteres maiúsculos! </h3>     
-            <h4> Exemplo: 👇 </h4>
+            <h1> IN_ARRAY </h1>
+            <h2> Verifica se há um dado em um determinado array.</h2>
+            <h4> Exemplo: 👇</h4>
         </header>
 
         <div class="window-code">
@@ -30,30 +29,30 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = "Eu fUi Na CaSa DO LuCAs";</p>
-                <p class="coding">echo <span class="function-php">strtolower</span>($frase);</p>
+                <p class="comment">//in_array( elemento a ser verificado, array que será verificado )</p>
+                <p class="coding">$letras = array('a', 'b', 'c', 'd');</p>
+                <p class="coding">if(<span class="function-php">in_array</span>('a', $letras)){</p>
+                <p class="coding">echo 'O array contém a vogal: A!';</p>
+                <p class="coding">}else{</p>
+                <p class="coding">echo 'Não foi contém a letra procurada.';</p>
+                <p class="coding">}</p>
             </div>
 
         </div>
 
         <div class="container-output">
 
-            <h4> Saída: 👇 </h4>
+            <h4>Saída: 👇</h4>
 
             <?php 
-
-                $frase = "Eu fUi Na CaSa DO LuCAs";
-                echo strtolower($frase);
-
-                //Para caracteres especias utilize funções com mb_[nome_função]
-                /* 
-                const CARACTERES_ESPECIAIS = "utf-8";
-                $fraseA = "Eu fUi Na CaSa DO JoÃo";
-                echo mb_strtolower($fraseA, CARACTERES_ESPECIAIS);
-                */
-                
+                $letras = array('a', 'b', 'c', 'd');
+                if(in_array('a', $letras)){
+                    echo '<p>O array contém a vogal: A!</p>';
+                }else{
+                    echo '<p>Não foi contém a letra procurada.</p>';
+                }
             ?>
-         
+            
         </div>
     </main>
 </body>

@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: IN_ARRAY - Lucas Alvarenga</title>
+    <title>Funções no PhP: PRINT_R - Lucas Alvarenga</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> IN_ARRAY </h1>
-            <h2> Verifica se há um dado em um determinado array.</h2>
+            <h1> PRINT_R </h1>
+            <h2> Caso deseje depurar a estrutura de um determinado Array ou Objeto PhP.</h2>
             <h4> Exemplo: 👇</h4>
         </header>
 
@@ -29,13 +29,8 @@
             </div>
 
             <div class="code-php">
-                <p class="comment">//in_array( elemento a ser verificado, array que será verificado )</p>
-                <p class="coding">$letras = array('a', 'b', 'c', 'd');</p>
-                <p class="coding">if(<span class="function-php">in_array</span>('a', $letras)){</p>
-                <p class="coding">echo 'O array contém a vogal: A!';</p>
-                <p class="coding">}else{</p>
-                <p class="coding">echo 'Não foi contém a letra procurada.';</p>
-                <p class="coding">}</p>
+                <p class="coding">$vogais = array('a', 'e', 'i', 'o', 'u');</p>
+                <p class="coding"><span class="function-php">print_r</span>($vogais);</p>
             </div>
 
         </div>
@@ -45,12 +40,8 @@
             <h4>Saída: 👇</h4>
 
             <?php 
-                $letras = array('a', 'b', 'c', 'd');
-                if(in_array('a', $letras)){
-                    echo '<p>O array contém a vogal: A!</p>';
-                }else{
-                    echo '<p>Não foi contém a letra procurada.</p>';
-                }
+                $vogais = array('a', 'e', 'i', 'o', 'u');
+                print_r($vogais);
             ?>
             
         </div>

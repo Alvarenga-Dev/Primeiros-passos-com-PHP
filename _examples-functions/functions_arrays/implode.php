@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: PRINT_R - Lucas Alvarenga</title>
+    <title>Funções no PhP: IMPLODE - Lucas Alvarenga</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> PRINT_R </h1>
-            <h2> Caso deseje depurar a estrutura de um determinado Array ou Objeto PhP.</h2>
+            <h1> IMPLODE </h1>
+            <h2> Tem a função de transforma um Array em uma String e ainda podendo separá-los com uma vírgula, por exemplo.</h2>
+            <h3> Obs.: Função oposta a <a href="explode.php">explode()</a>.</h3>
             <h4> Exemplo: 👇</h4>
         </header>
 
@@ -29,8 +30,8 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$vogais = array('a', 'e', 'i', 'o', 'u');</p>
-                <p class="coding"><span class="function-php">print_r</span>($vogais);</p>
+                <p class="coding">$frase = array("Aprendendo", "funções", "mais", "comuns", "no", "PhP");</p>
+                <p class="coding">echo <span class="function-php">implode</span>(" ", $frase);</p>
             </div>
 
         </div>
@@ -40,8 +41,8 @@
             <h4>Saída: 👇</h4>
 
             <?php 
-                $vogais = array('a', 'e', 'i', 'o', 'u');
-                print_r($vogais);
+                $frase = array("Aprendendo", "funções", "mais", "comuns", "no", "PhP");
+                echo implode("~", $frase);
             ?>
             
         </div>

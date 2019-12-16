@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: IMPLODE - Lucas Alvarenga</title>
+    <title>Funções no PhP: RANGE - Lucas Alvarenga</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> IMPLODE </h1>
-            <h2> Tem a função de transforma um Array em uma String e ainda podendo separá-los com uma vírgula, por exemplo.</h2>
-            <h3> Obs.: Função oposta a <a href="explode.php">explode()</a>.</h3>
-            <h4> Exemplo: 👇</h4>
+            <h1> RANGE </h1>
+            <h2> Cria um array numérico.</h2>
+            <h4> Exemplo: 👇 </h4>
         </header>
 
         <div class="window-code">
@@ -30,19 +29,20 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = array("Aprendendo", "funções", "mais", "comuns", "no", "PhP");</p>
-                <p class="coding">echo <span class="function-php">implode</span>(" ", $frase);</p>
+                <p class="comment">//range(Qual é o valor inicial, O valor máximo do array, (Opcional) se os valores irão saltar de 2 em 2, 3 em 3 e etc)</p>
+                <p class="coding">$array = <span class="function-php">range</span>(0,20, 2);</p>
+                <p class="coding">print_r($array);</p>
             </div>
 
         </div>
 
         <div class="container-output">
 
-            <h4>Saída: 👇</h4>
+            <h4> Saída: 👇 </h4>
 
             <?php 
-                $frase = array("Aprendendo", "funções", "mais", "comuns", "no", "PhP");
-                echo implode("~", $frase);
+                $array = range(0,20, 2);
+                print_r($array);
             ?>
             
         </div>

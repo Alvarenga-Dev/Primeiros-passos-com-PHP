@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: STR_REAPEAT - Lucas Alvarenga</title>
+    <title>Funções no PhP: NUMBER_FORMAT - Lucas Alvarenga</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <main>
+
         <header class="header-content">
-            <h1> STR_REAPEAT </h1>
-            <h2> Essa função permite a criação de textos repetidos. </h2>     
-            <h4> Exemplo: 👇 </h4>
+            <h1> NUMBER_FORMAT </h1>
+            <h2> Usado para realizar a formatação de um número! </h2>
+            <h4> Exemplo: 👇</h4>
         </header>
 
         <div class="window-code">
@@ -29,24 +30,25 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$texto = <span class="function-php">str_repeat</span>("-", 20);</p>
-                <p class="coding">echo "$texto";</p>
+                <p class="coding">$produto = "Notebook DELL";</p>
+                <p class="coding">$preco = 3550.9;</p>
+                <p class="comment">//number_format( Variável, Casas decimais, Separador decimal, Separador de milhar )</p>
+                <p class="coding">echo "O preço do $produto é R$ ". <span class="function-php">number_format</span>($preco , 2 , "," , ".");</p>
             </div>
 
         </div>
 
         <div class="container-output">
 
-            <h4> Saída: 👇 </h4>
+            <h4>Saída: 👇</h4>
 
             <?php 
-
-                $texto = str_repeat("-", 50);
-                echo "<p>$texto</p>";
-                #echo strlen($texto); -> Caso queira confirmar se há 50 caracteres...
-            
+                $produto = "Notebook DELL";
+                $preco = 3550.9;
+                
+                echo "<p>O preço do $produto é R$ ". number_format($preco, 2, ",", ".")."</p>";
             ?>
-         
+            
         </div>
     </main>
 </body>

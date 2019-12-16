@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: EXPLODE - Lucas Alvarenga</title>
+    <title>Funções no PhP: PRINTF - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> EXPLODE </h1>
-            <h2> Você informa um String e define qual separador será levado em conta para definir a criação de um array.</h2>
-            <h3> Obs.: Função oposta a <a href="implode.php">implode()</a>.</h3>
+            <h1> PRINTF </h1>
+            <h2> Função herdada da linguagem C, é utilizada para exibir algo na tela com uma formatação específica.</h2>
+             <h3>'Print' em português significa impressão, já o ' f ' refere-se a 'format' ou formatar.</h3>  
             <h4> Exemplo: 👇</h4>
         </header>
 
@@ -30,9 +30,10 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = "Aprendendo funções mais comuns no PhP";</p>
-                <p class="coding">$array = <span class="function-php">explode</span>(" ", $frase);</p>
-                <p class="coding">print_r($array);</p>
+                <p class="coding">$produto = "Leite";</p>
+                <p class="coding">$preco = 4.5;</p>
+                <p class="comment">$s - Textos | $f - Reais | %d - Inteiros | %.2f - Número de casas decimais 2,3,4... </p>
+                <p class="coding"><span class="function-php">printf</span>("O %s custa R$ %.2f", $produto, $preco);</p>
             </div>
 
         </div>
@@ -42,9 +43,10 @@
             <h4>Saída: 👇</h4>
 
             <?php 
-                $frase = "Aprendendo funções mais comuns no PhP";
-                $array = explode(" ", $frase);
-                print_r($array);
+                $produto = "Leite";
+                $preco = 4.5;
+    
+                printf("O %s custa R$ %.2f", $produto, $preco);
             ?>
             
         </div>

@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: STRLEN - Lucas Alvarenga</title>
+    <title>Funções no PhP: STR_REPLACE - Lucas Alvarenga</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 </head>
 <body>
     <main>
         <header class="header-content">
-            <h1> STRLEN </h1>
-            <h2> Função usada para informar a quantidade de caracteres uma determinada String possui.</h2>  
-            <h4> Exemplo: 👇</h4>
+            <h1> STR_REPLACE </h1>
+            <h2> Essa função possui a responsabilidade de substituir um determinado caracter por outro dentro de uma String. </h2> 
+            <h3> Obs.: Caso queira desconsiderar letras maiúsculas e minúsculas, use: str_ireplace(). </h3>     
+            <h4> Exemplo: 👇 </h4>
         </header>
 
         <div class="window-code">
@@ -29,24 +30,26 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$texto = "Lucas Alvarenga";</p>
-                <p class="coding">$tamanho = <span class="function-php">strlen</span>($texto);</p>
+                <p class="comment">//str_replace(Caracter que deseja retirar, Caracter que deseja inserir, String onde deve ocorrer todo o processo )</p>
+                <p class="coding">$cpf = "138.818.730#23";</p>
+                <p class="coding">$cpfCorrigido = <span class="function-php">str_replace</span>("#", "-", $cpf);</p>
+                <p class="coding">echo "$cpfCorrigido";</p>
             </div>
 
         </div>
 
         <div class="container-output">
 
-            <h4>Saída: 👇</h4>
+            <h4> Saída: 👇 </h4>
 
-            <?php 
-                
-                $texto = "Lucas Alvarenga";
-                $tamanho = strlen($texto);
-                echo $tamanho;
-                
-            ?>
+            <?php          
+
+                $cpf = "138.818.730#23";
+                $cpfCorrigido = str_replace("#", "-", $cpf);
+                echo "<p>$cpfCorrigido</p>"; 
             
+            ?>
+         
         </div>
     </main>
 </body>
