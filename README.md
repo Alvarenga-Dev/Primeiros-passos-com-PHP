@@ -12,7 +12,7 @@
 
 ## Sobre o PhP 🐘 (EM PRODUÇÃO)
 
-<p>No próprio site do [php.net](https://www.php.net/manual/pt_BR/intro-whatis.php), descreve o PHP da seguinte forma: "O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML."</p>
+<p>No próprio site do php.net, descreve o PHP da seguinte forma: "O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML."</p>
 
 <p>O PHP é executado na parte do servidor e entregando para o cliente geralmente um conjunto de HTML, CSS e JavaScript. Com isso, é possível interagir com bancos de dados e aplicações existentes no servidor com a vantagem de não expor o código fonte PHP para o cliente. 
 </p>
