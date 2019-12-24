@@ -42,9 +42,9 @@ h4 {
 
 a {
     color: #68d4e7;
-    position: relative;
     text-decoration: none;
     padding: 0 0 .1em 0;
+    position: relative;
 }
 
 a::before {
@@ -72,8 +72,40 @@ p {
 }
 
 .header-content h1,h2,h3 {
-    text-align: center;
     margin: .5em 0;
+    text-align: center;
+}
+
+.note {
+    background: #3f233f;
+    border: 1px solid #643864;
+    margin: 3.5em 1em 3.5em 1em;
+    padding: .2em;
+}
+
+.note h1 {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin: .3em;
+    padding: .3em;
+    text-align: left;
+}
+
+.note p {
+    font-size: .9em;
+    margin: .5em;
+    padding: 0 1em;
+}
+
+.note ul {
+    color: #f1f1f1;
+    margin: 1.2em;
+    padding: 1em;
+    list-style: none;
+}
+
+.note ul li {
+    padding: .5em;
 }
 
 /* === === === === === === === === === CODE === === === === === === === === === === === */
@@ -125,4 +157,19 @@ footer {
 footer .footer-text {
     color: #f1f1f1;
     font-size: .9em;
+}
+
+
+/* === === === === === === === === === Aux Class === === === === === === === === === === === */ 
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.bold {
+    font-weight: bold;
 }

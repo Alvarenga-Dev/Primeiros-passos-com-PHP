@@ -12,6 +12,13 @@
     <main>
         <header class="header-content">
             <h1> Variáveis </h1>
+            <p class="text-center"> Variáveis são áreas de memória associadas a um nome que pode armazenar valores de um determinado tipo, ou seja, unidade de memória relacionada a uma nomeação. </p>
+            
+            <div class="note">
+                <h1> Observação </h1>
+                <p>  As variáveis no PHP são representadas por um cifrão ($) seguido pelo nome da variável. Os nomes das variáveis são case-sensitive, isto é, o PHP faz a diferenciação de letras maiúsculas e minúsculas! </p>
+            </div>
+
             <h4> Exemplos de variáveis no PhP: 👇</h4>
         </header>
 
@@ -28,7 +35,7 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$string = "Lucas";</p>
+                <p class="coding">$string = "php";</p>
                 <p class="coding">$inteiro = 10;</p>
                 <p class="coding">$real = 2032.42;</p>
                 <p class="coding">$boolean = true;</p>
@@ -36,7 +43,10 @@
 
         </div>
 
-        
     </main>
+
+    <footer> 
+        <p> 😜 Dica: Veja o <a href="https://www.php.net/manual/pt_BR/userlandnaming.php" target="blank">Guia de nomenclatura em espaço de usuário</a>. </p>
+    </footer>
 </body>
 </html>
