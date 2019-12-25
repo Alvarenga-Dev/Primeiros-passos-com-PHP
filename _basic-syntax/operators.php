@@ -19,9 +19,11 @@
         <div class="note">
             <h1> Operadores básicos no PHP </h1>
             <ul>
-                <li> . referência a método, função ou atributo de um objeto e é usado para concatenar Strings </li>
                 <li> , separador de identificadores </li>
+                <li> . concatenar Strings </li>
                 <li> ; separador de declarações e comandos </li>
+                <li> -> referência a método, função ou atributo de um objeto </li>
+                <li> :: usado para chamar um método estático, acessar uma variável estática, constantes, e métodos sobrecarregados </li>
                 <li> [ ] declarador de matrizes e delimitador de índices </li>
                 <li> { } separador de blocos e escopos locais </li>
                 <li> ( ) precedência de operadores, listas de parâmetros </li>

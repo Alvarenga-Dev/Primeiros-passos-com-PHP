@@ -23,7 +23,7 @@
 
 ## Como executar códigos PHP
 
-<p>Para abrir e executar os códigos php presentes em alguns arquivos, é importante realizar a instalação de algum pacote de instalação que contenha: apache (servidor HTTP), MYSQL e o próprio PHP. Para começar no php, basta apenas baixar o xampp ou wampp e já poderá começar a "brincar". No entanto, caso ache necessário, baixe o php e configure ele em suas variáveis de ambiente! </p>
+<p>Para abrir e executar os códigos php presentes em alguns arquivos, é importante realizar a instalação de algum pacote de instalação que contenha: apache (servidor HTTP), MYSQL e o próprio PHP. Para começar no php, basta apenas baixar o xampp ou wamp e já poderá começar a "brincar". No entanto, caso ache necessário, baixe o php e configure ele em suas variáveis de ambiente! </p>
 
 ## Fotos do projeto
 
