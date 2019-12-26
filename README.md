@@ -32,11 +32,7 @@
 </p>
 
 <p align="center">
-    <img alt="Exemplo de estrutura de cada arquivo .php - operadores" src="images/example-page-basic-syntax-operators.png" width="500">
-</p>
-
-<p align="center">
-    <img alt="Exemplo de estrutura de cada arquivo .php - funções" src="images/example-page-basic-syntax-variables.png" width="500">
+    <img alt="Exemplo de estrutura de cada arquivo .php - funções" src="images/example-page-basic-syntax-functions.png" width="500">
 </p>
 
 ## Autor
