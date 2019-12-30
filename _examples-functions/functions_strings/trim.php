@@ -47,7 +47,7 @@
                 $inputName = "    ";  
                 echo "<p> Número de caracteres sem o uso do trim() - ". strlen($inputName)."</p>";
                 $validarInputName = trim($inputName);
-                echo "<p> Número de caracteres sem o uso do trim() - ". strlen($validarInputName)."</p>";
+                echo "<p> Número de caracteres com o uso do trim() - ". strlen($validarInputName)."</p>";
                 
             ?>
          
