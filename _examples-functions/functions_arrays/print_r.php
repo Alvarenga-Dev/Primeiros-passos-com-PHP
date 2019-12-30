@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: PRINT_R - Lucas Alvarenga</title>
+    <title>Funções no PHP: PRINT_R - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../../css/style.css">
 </head>
@@ -12,7 +12,7 @@
     <main>
         <header class="header-content">
             <h1> PRINT_R </h1>
-            <h2> Caso deseje depurar a estrutura de um determinado Array ou Objeto PhP.</h2>
+            <h2> Caso deseje depurar a estrutura de um determinado Array ou Objeto PHP.</h2>
             <h4> Exemplo: 👇</h4>
         </header>
 

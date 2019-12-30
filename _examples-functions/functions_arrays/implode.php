@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: IMPLODE - Lucas Alvarenga</title>
+    <title>Funções no PHP: IMPLODE - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../../css/style.css">
 </head>
@@ -30,7 +30,7 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = array("Aprendendo", "funções", "mais", "comuns", "no", "PhP");</p>
+                <p class="coding">$frase = array("Aprendendo", "funções", "mais", "comuns", "no", "PHP");</p>
                 <p class="coding">echo <span class="function-php">implode</span>(" ", $frase);</p>
             </div>
 
@@ -41,7 +41,7 @@
             <h4>Saída: 👇</h4>
 
             <?php 
-                $frase = array("Aprendendo", "funções", "mais", "comuns", "no", "PhP");
+                $frase = array("Aprendendo", "funções", "mais", "comuns", "no", "PHP");
                 echo implode("~", $frase);
             ?>
             

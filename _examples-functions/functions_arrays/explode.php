@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: EXPLODE - Lucas Alvarenga</title>
+    <title>Funções no PHP: EXPLODE - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../../css/style.css">
 </head>
@@ -30,7 +30,7 @@
             </div>
 
             <div class="code-php">
-                <p class="coding">$frase = "Aprendendo funções mais comuns no PhP";</p>
+                <p class="coding">$frase = "Aprendendo funções mais comuns no PHP";</p>
                 <p class="coding">$array = <span class="function-php">explode</span>(" ", $frase);</p>
                 <p class="coding">print_r($array);</p>
             </div>

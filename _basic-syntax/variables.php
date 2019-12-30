@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: Variáveis - Lucas Alvarenga</title>
+    <title>Funções no PHP: Variáveis - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -19,7 +19,7 @@
                 <p>  As variáveis no PHP são representadas por um cifrão ($) seguido pelo nome da variável. Os nomes das variáveis são case-sensitive, isto é, o PHP faz a diferenciação de letras maiúsculas e minúsculas! </p>
             </div>
 
-            <h4> Exemplos de variáveis no PhP: 👇</h4>
+            <h4> Exemplos de variáveis no PHP: 👇</h4>
         </header>
 
         <div class="window-code">

@@ -8,9 +8,9 @@
 
 ## Sobre o repositório 🗂
 
-<p>Repositório criado com o objetivo de ajudar outros a entenderem melhor a linguagem PhP! Assim, você poderá ver a aplicação e explicação de cada recurso que é utilizada em cada arquivo (como variáveis, funções e etc). Caso você não conheça o PhP e esteja iniciando no "maravilhoso universo da programação", haverá a seguir uma breve explicação do que é o php e como você pode começar a codificar!</p>
+<p>Repositório criado com o objetivo de ajudar outros a entenderem melhor a linguagem PHP! Assim, você poderá ver a aplicação e explicação de cada recurso que é utilizada em cada arquivo (como variáveis, funções e etc). Caso você não conheça o PHP e esteja iniciando no "maravilhoso universo da programação", haverá a seguir uma breve explicação do que é o PHP e como você pode começar a codificar!</p>
 
-## Sobre o PhP 🐘
+## Sobre o PHP 🐘
 
 <p>No próprio site do php.net, descreve o PHP da seguinte forma: "O PHP (um acrônimo recursivo para PHP: Hypertext Preprocessor) é uma linguagem de script open source de uso geral, muito utilizada, e especialmente adequada para o desenvolvimento web e que pode ser embutida dentro do HTML."</p>
 
@@ -23,7 +23,7 @@
 
 ## Como executar códigos PHP 💻
 
-<p>Para abrir e executar os códigos php presentes em alguns arquivos, é importante realizar a instalação de algum pacote de instalação que contenha: apache (servidor HTTP), MYSQL e o próprio PHP. Para começar no php, basta apenas baixar o xampp ou wamp e já poderá começar a "brincar". No entanto, caso ache necessário, baixe o php e configure ele em suas variáveis de ambiente! </p>
+<p>Para abrir e executar os códigos PHP presentes em alguns arquivos, é importante realizar a instalação de algum pacote de instalação que contenha: apache (servidor HTTP), MYSQL e o próprio PHP. Para começar no PHP, basta apenas baixar o xampp ou wamp e já poderá começar a "brincar". No entanto, caso ache necessário, baixe o PHP e configure ele em suas variáveis de ambiente! </p>
 
 ## Fotos do projeto 📸
 

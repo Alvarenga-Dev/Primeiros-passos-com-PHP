@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: For, While e Do...While - Lucas Alvarenga</title>
+    <title>Funções no PHP: For, While e Do...While - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -12,7 +12,7 @@
     <main>
         <header class="header-content">
             <h1> Estruturas de repetição </h1>
-            <h4> Exemplos de estruturas de repetição no PhP: 👇</h4>
+            <h4> Exemplos de estruturas de repetição no PHP: 👇</h4>
         </header>
 
         <div class="window-code">
@@ -109,7 +109,7 @@
     ?>
 
     <footer> 
-        <p> 😜 Dica: Veja alguns códigos php comentados no arquivo, prátique bastante e veja o artigo da <a href="https://www.devmedia.com.br/while-e-do-while-lacos-de-repeticoes-estrutura-da-linguagem-parte-1/18870" target="blank">Devmedia</a> que explica com mais detalhes as diferenças entre esses 3 laços de repetição! </p>
+        <p> 😜 Dica: Veja alguns códigos PHP comentados no arquivo, prátique bastante e veja o artigo da <a href="https://www.devmedia.com.br/while-e-do-while-lacos-de-repeticoes-estrutura-da-linguagem-parte-1/18870" target="blank">Devmedia</a> que explica com mais detalhes as diferenças entre esses 3 laços de repetição! </p>
         <p> (O artigo usa exemplos em C#, mas a teoria é a mesma). </p>
     </footer>
 </body>

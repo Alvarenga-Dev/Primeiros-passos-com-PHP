@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Funções no PhP: Operadores - Lucas Alvarenga</title>
+    <title>Funções no PHP: Operadores - Lucas Alvarenga</title>
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
 </head>
@@ -12,7 +12,7 @@
     <main>
         <header class="header-content">
             <h1> Operadores </h1>
-            <h4> Exemplos dos principais operadores no PhP: 👇</h4>
+            <h4> Exemplos dos principais operadores no PHP: 👇</h4>
         </header>
 
         
@@ -69,7 +69,7 @@
     </main>
 
     <footer> 
-        <p> 😜 Dica: Entre no site <a href="https://www.php.net/manual/pt_BR/language.operators.php" target="blank">php.net</a> e tenha mais informações sobre os demais operadores no php. </p>
+        <p> 😜 Dica: Entre no site <a href="https://www.php.net/manual/pt_BR/language.operators.php" target="blank">php.net</a> e tenha mais informações sobre os demais operadores no PHP. </p>
     </footer>
 </body>
 </html>
