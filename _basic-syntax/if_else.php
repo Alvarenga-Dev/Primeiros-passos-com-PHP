@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -144,6 +143,3 @@
     </footer>
 </body>
 </html>
-=======
-
->>>>>>> 80be5a0aefa0f91553c23aeb259e20a1f4509633
