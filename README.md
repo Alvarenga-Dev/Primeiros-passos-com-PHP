@@ -21,18 +21,18 @@
 
 <br/><br/>
 
-## Como executar códigos PHP
+## Como executar códigos PHP 💻
 
 <p>Para abrir e executar os códigos php presentes em alguns arquivos, é importante realizar a instalação de algum pacote de instalação que contenha: apache (servidor HTTP), MYSQL e o próprio PHP. Para começar no php, basta apenas baixar o xampp ou wamp e já poderá começar a "brincar". No entanto, caso ache necessário, baixe o php e configure ele em suas variáveis de ambiente! </p>
 
-## Fotos do projeto
+## Fotos do projeto 📸
 
 <p align="center">
     <img alt="Exemplo de estrutura de cada arquivo .php - variáveis" src="images/example-page-basic-syntax-variables.png" width="500">
 </p>
 
 <p align="center">
-    <img alt="Exemplo de estrutura de cada arquivo .php - funções" src="images/example-page-basic-syntax-functions.png" width="500">
+    <img alt="Exemplo de estrutura de cada arquivo .php - funções" src="images/example-page-functions-formats.png" width="500">
 </p>
 
 ## Autor
